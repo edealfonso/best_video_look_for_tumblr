@@ -1,0 +1,46 @@
+ /* 
+ BEST VIDEO LOOK v1.0 for TUMBLR
+ by elsa.de.alfonso@gmail.com
+ Part 2/3
+ */
+ 
+img.videotn {
+    cursor:pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    text-align:center;
+    opacity:0.50;
+    filter: alpha(opacity=50); /* For IE8 and earlier */            }
+
+.video-holder {
+    position: relative;
+    width:500px;
+    height:281px;
+    overflow: hidden;
+    background-color: transparent;
+    background-image: url(https://elsadealfonso.files.wordpress.com/2016/01/play-logo-02-gris-70.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity:1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */            }
+
+.video-holder:hover { background-image: url(https://elsadealfonso.files.wordpress.com/2016/01/play-logo-02-70.png); }
+
+.video-holder:onclick {
+    this.nextElementSibling.style.display='block';
+    this.style.display='none';
+
+}
+
+body:after {
+    display:none;
+    content: url(https://elsadealfonso.files.wordpress.com/2016/01/play-logo-02-70.png);
+}
+
+/* end of BEST VIDEO LOOK (part 2/2) */
